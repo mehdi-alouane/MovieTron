@@ -1,15 +1,18 @@
 <template>
-	<div>
-		<Search></Search>
-	</div>
+  <div id="app">
+    <router-view />
+  </div>
 </template>
 
 <script>
-import Search from './components/search.vue'
-	export default {
-		name: 'App',
-
-		components: { Search }
-
-	}
+export default {
+  name: 'App'
+}
 </script>
+
+<style src='bulma' lang='sass'>
+</style>
+
+<style lang="scss">
+@import url('../node_modules/font-awesome/css/font-awesome.css');
+</style>
